@@ -2689,7 +2689,7 @@ input, select, textarea {
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				display: inline-block;
 				font-size: 0.8em;
-				height: 2.5em;
+				height: 1em;
 				left: 0;
 				line-height: 2.35em;
 				position: absolute;
@@ -4012,7 +4012,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: auto;
 		-moz-flex-direction: row;
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
@@ -4041,8 +4041,7 @@ input, select, textarea {
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			margin: 4em 0 2em 0;
-			padding: 2em 0 0 0;
+		
 			width: 100%;
 		}
 
@@ -4106,7 +4105,7 @@ input, select, textarea {
 				}
 
 				#footer .inner .copyright {
-					margin: 4em 0 2em 0;
+					margin: 1em 0 2em 0;
 				}
 
 	}

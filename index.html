@@ -11,6 +11,29 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+			
+			/* Create three equal columns that floats next to each other */
+			.column {
+			  float: left;
+			  width: 33.33%;
+			  padding: 50px;
+			  height: 800px; /* Should be removed. Only for demonstration */
+			}
+			
+			/* Clear floats after the columns */
+			.row:after {
+			  content: "";
+			  margin: 200;
+			  display: table;
+			  clear: both;
+			}
+			</style>
+			</head>
+			<body>
 	</head>
 	<body class="is-preload">
 
@@ -26,134 +49,110 @@
 					</header>
 
 				<!-- Menu -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
-					</nav>
 
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
 						<!--	<div class="logo"><span class="icon fa-gem"></span></div>-->
-							<h2>Nazma Akter Zinnia</h2>
-							<p>SQA Engineer</p>
-							<p>A Showcase of my projects and abilities</p>
+							<h3>Nazma Akter Zinnia</h3>
+							<h6>SQA Engineer</h6>
+							<h5 class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/nazma-akter-zinnia-9b52aa237/"> Linkedin Profile</a></h5>
+						
+								<h6 text-alignment: left>Passion is to do something challenging and interesting,<br>
+									finding bugs, provide the best product in the tech world</h6>
+							
 						</div>
+						
 					</section>
+					</div>
 
 				<!-- Wrapper -->
 					<section id="wrapper">
 
-						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic01.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Realme Shop</h2>
-										<p>Test Case for both web and android platform</p>
-										<a href="https://github.com/Zinniacse/Realme_Shop" class="special">Check it out</a>
-								</div>
-							</section>
-</li>
-						<!-- Two -->
-							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.png" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Information API</h2>
-										<p>API Testing using postman and report generate using newman</p>
-										<a href="https://github.com/Zinniacse/StudentInformation_API" class="special">Check it out</a>
-									</div>
-								</div>
-							</section>
-
-						<!-- Three -->
-							<section id="three" class="wrapper spotlight style3">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-									<div class="content">
-										<h2 class="major">Load Testing</h2>
-										<p>Load Testing of API using jmeter</p>
-										<a href="https://github.com/Zinniacse/API_LoadTesting" class="special">Check it out</a>
-									</div>
-								</div>
-							</section>
-
 						<!-- Four -->
-							<section id="four" class="wrapper alt style1">
-								<div class="inner">
-									<h2 class="major">Live Projects</h2>
-					
-									<section class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Blue Audio</h3>
-											<p>Audio Stream and live bangla android and web application</p>
-											<a href="https://play.google.com/store/apps/details?id=app.blue.streaming" class="special">Check it out</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.png" alt="" /></a>
-											<h3 class="major">KheroKhata</h3>
-											<p>Finech Application for daily life. Its an inventory system.</p>
-											<a href="https://play.google.com/store/apps/details?id=com.appshat.myapplication" class="special">Check it out</a>
-										</article>
-										
-									</section>
-									
-									<!--<ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul>-->
+						<section id="four" class="wrapper alt style1">
+							<div class="inner">
+							<h2 class="major"> Github Projects</h2>
+							
+							<div class="row">
+							
+							<div class="column">
+									<a href="#" class="image"><img src="images/img1.png" alt="" width="250" height="250" /></a>
+									<h2 class="major">Realme Shop</h2>
+									<p>Test Case for web and android Both Platforms.</p>
+									<a href="https://github.com/Zinniacse/Realme_Shop" class="special">Github Link</a>
 								</div>
-							</section>
-
-					</section>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="inner" >
-							<style>
-								#footer {
-									text-align: left;
 									
+								<div class="column">
+									<a href="#" class="image"><img src="images/pic03.png" alt="" width="250" height="250" /></a>
+									<h2 class="major">Information API</h2>
+									<p>API Testing using postman and report generate using newman.</p>
+									<a href="https://github.com/Zinniacse/StudentInformation_API" class="special">Github Link</a>
+								</div>
+								<div class="column">
+									<a href="#" class="image"><img src="images/pic02.png" alt="" width="250" height="250" /></a>
+									<h2 class="major">Load Testing</h2>
+									<p>Load Testing using jmeter,report generate using command line.</p>
+									<a href="https://github.com/Zinniacse/API_LoadTesting" class="special">Github Link</a>
+								</div>
+								<div class="inner">
+						
+									<h2 class="major"> Live Projects</h2>
 									
-								}
-							</style>
-							<ul class="contact">
-								<li class="icon solid fa-home">
-									Alam Nogor Housing, Hemayetpur<br />
-									Dhaka,	Bangladesh
-								</li>
-								<li class="icon solid fa-phone">(+880) 174-7106456</li>
-								<li class="icon solid fa-envelope"><a href="zinnia.cse7862@gmail.com">Email</a></li>
-								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/nazma-akter-zinnia-9b52aa237/">Linkedin</a></li>
-								<li class="icon brands fa-github"><a href="https://github.com/Zinniacse">Github</a></li>
-							</ul>
+									<div class="row">
+									
+									<div class="column">
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" width="250" height="250" /></a>
+											<h2 class="major">Blue Audio</h2>
+											<p>Audio Stream application in both android and web Platforms.</p>
+											<a href="https://play.google.com/store/apps/details?id=app.blue.streaming" class="special">Project Link</a>
+										</div>
+											
+										<div class="column">
+											<a href="#" class="image"><img src="images/pic05.png" alt="" width="250" height="250" /></a>
+											<h2 class="major">KheroKhata</h2>
+											<p>Inventory System application for daily needs in business.</p>
+											<a href="https://play.google.com/store/apps/details?id=com.appshat.myapplication" class="special">Project Link</a>
+										</div>
+									
+						</section>
+				
+						
+	
+</section>
+	<!-- Footer -->
+	<section id="footer">
+		<div class="inner">
+			<h2 class="major">Contact Information</h2>
+			<div class="row">
+							
+				<div class="column">
+					<p class="icon solid fa-home">
+					 Alam Nogor Housing, Hemayetpur<br />
+					Dhaka,Bangladesh<br />
+					</div>
+					<div class="column">
+						<p class="icon solid fa-phone">
+						 (+880)174-106456
+						 <br />
+						</div>
+
+						<div class="column">
+							<p class="icon brands fa-github">
+								<a href="https://github.com/Zinniacse">Github Link</a>	
+							 <br />
 							</div>
-							<div>
-								<section id="cpy">
-
-								<style>
-									#cpy {
-										text-align: center;
-								
-									}
-								</style>
-							<ul class="copyright">
-								<li>&copy; All rights reserved.</a></li>
+				</div>
+							<!-- <ul class="copyright">
+								<li>&copy;  All rights reserved.</li><li></a></li>
 							</ul>
 						</div>
-					</section>
+					</section> -->
 
 			</div>
+			</section>
+
+			
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -162,6 +161,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			</body>
+
+</div>
 
 	</body>
 </html>
