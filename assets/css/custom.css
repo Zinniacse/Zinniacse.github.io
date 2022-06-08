@@ -1,0 +1,49 @@
+.col-md-4 {
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+.col-md-4 {
+    width: 33%;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    margin: 200;
+    display: table;
+    clear: both;
+}
+#footer .inner .copyright {
+    padding-top: 2rem;
+}
+
+h2.major {
+    font-size: 1.5em !important;
+}
+
+p.icon.brands.fa-linkedin {
+    margin-bottom: 1em;
+}
+.copyright p {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-4 {
+        width: 100%;
+        text-align: center;
+    }
+    .col-md-6 {
+        text-align: center;
+    }
+}
