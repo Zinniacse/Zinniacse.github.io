@@ -3910,7 +3910,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				margin: 4.75em 0;
+				margin: 1.75em 0;
 			}
 
 				.wrapper:before, .wrapper:after {
