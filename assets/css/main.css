@@ -4041,7 +4041,7 @@ input, select, textarea {
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-		
+		    text-align: center;
 			width: 100%;
 		}
 
@@ -4142,6 +4142,7 @@ input, select, textarea {
 
 			#footer .inner .copyright li:first-child {
 				margin-top: 0;
+				text-align: center;
 			}
 
 	}
